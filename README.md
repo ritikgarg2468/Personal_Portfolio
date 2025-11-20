@@ -10,7 +10,7 @@ A modern, elegant, and professional personal portfolio website for me as Softwar
 - Dark/Light mode toggle
 - Animated sections with [Framer Motion](https://www.framer.com/motion/)
 - AI-powered chatbot assistant (Gemini API)
-- Downloadable resume
+- Downloadable Ritik_Garg_Resume
 - Projects, skills, experience, and achievements sections
 - Contact form with WhatsApp integration
 - Social media links

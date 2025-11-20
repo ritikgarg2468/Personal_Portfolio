@@ -33,12 +33,12 @@ const About: React.FC = () => {
           </p>
           <div className="pt-4">
             <a
-              href="/resume.pdf"
+              href="/Ritik_Garg_Resume.pdf"
               download
               className="inline-flex items-center gap-2 px-6 py-3 font-semibold text-white bg-indigo-600 rounded-lg shadow-lg hover:bg-indigo-700 transition-transform hover:scale-105"
             >
               <Download size={18} />
-              Download Resume
+              Download Ritik_Garg_Resume
             </a>
           </div>
         </div>

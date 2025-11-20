@@ -114,6 +114,17 @@ export const PROJECTS_DATA: Project[] = [
 
 export const EXPERIENCE_DATA: Experience[] = [
   {
+    role: 'Backend Engineer Intern',
+    company: 'WebsoniX',
+    duration: 'Oct 2025 - Present',
+    description: [
+      'Contributed to backend development during migration from Flutter to Node.js (TypeScript), improving system scalability and maintainability.',
+      'Developed and maintained RESTful APIs and WebSocket services for real - time community chat features.',
+      'Integrated Azure Cosmos DB for efficient data storage and retrieval across distributed backend systems.',
+      'Collaborated with frontend team to enhance API performance and ensure seamless communication.'
+    ],
+  },
+  {
     role: 'Tech Contributor',
     company: 'Girlscript Foundation',
     duration: 'Sep 2025 - Dec 2025',

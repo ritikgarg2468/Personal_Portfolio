@@ -69,12 +69,12 @@ const Hero: React.FC = () => {
           variants={itemVariants}
         >
           <a
-            href="/resume.pdf"
+            href="/Ritik_Garg_Resume.pdf"
             download
             className="w-full sm:w-auto flex items-center justify-center gap-2 px-6 py-3 font-semibold text-white bg-indigo-600 rounded-lg shadow-lg hover:bg-indigo-700 transition-transform hover:scale-105"
           >
             <Download size={18} />
-            View Resume
+            View Ritik_Garg_Resume
           </a>
           <a
             href="#contact"
