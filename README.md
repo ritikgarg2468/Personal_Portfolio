@@ -116,5 +116,5 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 ---
 
-Made with 💙 by [Ritik Garg](https://www.linkedin.com/in/ritikgarg2468.com) .
+Made with 💙 by [Ritik Garg](https://www.linkedin.com/in/ritikgarg2468.com).
 
