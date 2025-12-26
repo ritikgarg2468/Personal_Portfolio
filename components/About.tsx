@@ -23,13 +23,13 @@ const About: React.FC = () => {
         </motion.div>
         <div className="md:col-span-3 text-lg text-slate-600 dark:text-slate-400 space-y-6">
           <p>
-            Hello! I'm Ritik Garg, a software developer with a deep passion for building beautiful, functional, and user-centric web applications. My journey into technology started with a fascination for how bits and bytes could create immersive digital experiences, and it has since evolved into a career dedicated to professional craftsmanship.
+            Hello! I'm Ritik Garg, a data analyst with a passion for uncovering insights from complex datasets and driving data-driven decisions. My journey into data analytics began with a curiosity about patterns in information, and it has evolved into a career focused on transforming raw data into strategic business value.
           </p>
           <p>
-            With a strong foundation in both frontend and backend technologies, I enjoy tackling complex problems and turning ideas into reality. I'm a lifelong learner, constantly exploring new technologies, and currently diving deep into the world of AI and its applications.
+            With expertise in Python, SQL, and visualization tools like Power BI, I excel at cleaning data, performing statistical analysis, and creating compelling dashboards. I'm committed to continuous learning, staying updated with the latest analytics techniques and tools.
           </p>
           <p>
-            When I'm not coding, you can find me exploring hiking trails, experimenting with new recipes, or contributing to open-source projects.
+            Outside of work, I enjoy exploring data visualization trends, reading about machine learning advancements, or hiking in nature to clear my mind for the next analytical challenge.
           </p>
           <div className="pt-4">
             <a

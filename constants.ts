@@ -21,6 +21,12 @@ import {
   Linkedin,
   Twitter,
   Mail,
+  BarChart3,
+  TrendingUp,
+  PieChart,
+  Calculator,
+  FileSpreadsheet,
+  Zap,
 } from 'lucide-react';
 
 export const NAV_LINKS = [
@@ -32,146 +38,98 @@ export const NAV_LINKS = [
 
 export const SKILLS_DATA: SkillCategory[] = [
   {
-    title: 'Frontend',
+    title: 'Data Analysis & Programming',
     skills: [
-      { name: 'React', Icon: Component },
-      { name: 'TypeScript', Icon: Code },
-      { name: 'Next.js', Icon: Rocket },
-      { name: 'Tailwind CSS', Icon: Palette },
-      { name: 'Framer Motion', Icon: Code },
-      { name: 'Jest', Icon: TestTube2 },
-    ],
-  },
-  {
-    title: 'Backend',
-    skills: [
-      { name: 'Node.js', Icon: Server },
-      { name: 'Express', Icon: Server },
       { name: 'Python', Icon: Code },
-      { name: 'PostgreSQL', Icon: Database },
-      { name: 'MongoDB', Icon: Database },
-      { name: 'GraphQL', Icon: GitFork },
-    ],
-  },
-  {
-    title: 'DevOps & Cloud',
-    skills: [
-      { name: 'Docker', Icon: Cpu },
-      { name: 'AWS', Icon: Cloud },
-      { name: 'Vercel', Icon: Cloud },
-      { name: 'Git', Icon: GitFork },
-      { name: 'CI/CD', Icon: Rocket },
-      { name: 'Terraform', Icon: Cloud },
-    ],
-  },
-  {
-    title: 'AI & Machine Learning',
-    skills: [
-      { name: 'PyTorch', Icon: BrainCircuit },
-      { name: 'Gemini API', Icon: Antenna },
-      { name: 'LangChain', Icon: GitFork },
-      { name: 'Hugging Face', Icon: BrainCircuit },
-      { name: 'Scikit-learn', Icon: TestTube2 },
+      { name: 'Pandas', Icon: Database },
+      { name: 'NumPy', Icon: Calculator },
+      { name: 'SQL', Icon: Database },
       { name: 'Jupyter', Icon: BookOpenCheck },
+      { name: 'Git', Icon: GitFork },
+    ],
+  },
+  {
+    title: 'Visualization & BI Tools',
+    skills: [
+      { name: 'Matplotlib', Icon: BarChart3 },
+      { name: 'Power BI', Icon: PieChart },
+      { name: 'Tableau', Icon: TrendingUp },
+      { name: 'Seaborn', Icon: BarChart3 },
+      { name: 'Plotly', Icon: TrendingUp },
+      { name: 'Excel', Icon: FileSpreadsheet },
+    ],
+  },
+  {
+    title: 'Machine Learning & Statistics',
+    skills: [
+      { name: 'Scikit-learn', Icon: BrainCircuit },
+      { name: 'Statistics', Icon: Calculator },
+      { name: 'Forecasting', Icon: TrendingUp },
+      { name: 'Data Cleaning', Icon: Zap },
+      { name: 'ETL', Icon: Database },
+      { name: 'Regression Analysis', Icon: BarChart3 },
+    ],
+  },
+  {
+    title: 'Databases & Cloud',
+    skills: [
+      { name: 'PostgreSQL', Icon: Database },
+      { name: 'MySQL', Icon: Database },
+      { name: 'AWS', Icon: Cloud },
+      { name: 'Azure', Icon: Cloud },
+      { name: 'BigQuery', Icon: Database },
+      { name: 'Docker', Icon: Cpu },
     ],
   },
 ];
 
 export const PROJECTS_DATA: Project[] = [
   {
-    title: 'Quick AI',
-    description: 'An AI-powered SaaS platform that integrates the Gemini API for intelligent content generation, image creation, and text summarization. Built using Next.js, TypeScript, and Tailwind CSS with PostgreSQL for data management and Clerk for authentication.',
-    tags: ['React', 'Gemini API', 'PostgreSQL', 'Clerk', 'Docker', 'CI/CD'],
-    imageUrl: './images/Quick_AI.png',
-    liveUrl: 'https://quick-ai-wd5r.vercel.app/',
-    githubUrl: 'https://github.com/ritikgarg2468/Quick-AI.git',
+    title: 'Sales Data Analysis + Forecasting Report',
+    description: 'Cleaned, processed and structured raw sales datasets using Pandas/NumPy for accurate and scalable analysis. Identified key revenue trends, sales peaks and top-performing products through detailed statistical examination. Visualized insights using Matplotlib/Power BI dashboards, presenting patterns with clarity and meaningful comparison. Implemented future sales forecasting models to assist in business planning and data-driven decision strategies.',
+    tags: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Power BI', 'Forecasting', 'Statistics'],
+    imageUrl: './images/sales_analysis.png',
+    liveUrl: 'https://github.com/ritikgarg2468/Sales-Data-Analysis-Forecasting-Report.git',
+    githubUrl: 'https://github.com/ritikgarg2468/Sales-Data-Analysis-Forecasting-Report.git',
   },
   {
-    title: 'URL Shortener',
-    description: 'A full-stack URL shortening application that allows users to create personalized short links, manage URLs, and track redirections. Built with React, Node.js, and MongoDB with secure JWT-based authentication.',
-    tags: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'REST API'],
-    imageUrl: './images/URL_Shortener.png',
-    liveUrl: 'https://url-shortner-delta-liart.vercel.app/',
-    githubUrl: 'https://github.com/ritikgarg2468/URL-Shortener.git',
-  },
-  {
-    title: 'Wanderlust',
-    description: 'A full-stack rental listing platform where users can explore, create, and manage property listings. Includes authentication, reviews, and secure CRUD operations with image uploads and validations.',
-    tags: ['EJS', 'Express', 'Node.js', 'MongoDB', 'REST API', 'JWT', 'Multer'],
-    imageUrl: './images/Wanderlust.png',
-    liveUrl: 'https://wanderlust-3u5p.onrender.com/listings',
-    githubUrl: 'https://github.com/ritikgarg2468/Wanderlust.git',
-  },
-  {
-    title: 'TaskTrack',
-    description: 'A full-stack task management application that enables users to register, log in, and manage tasks with priorities, due dates, and statuses. Built with React (Vite) for the frontend and Node.js/Express/MongoDB for the backend, featuring JWT-based authentication and a responsive UI.',
-    tags: ['React', 'Vite', 'Node.js', 'Express', 'MongoDB', 'JWT',],
-    imageUrl: './images/Task_Track.png',
-    liveUrl: 'https://inzint-full-stack-assignment-task-t.vercel.app/',
-    githubUrl: 'https://github.com/ritikgarg2468/Inzint-Full-Stack-Assignment-TaskTrack?tab=readme-ov-file'
+    title: 'Ad Campaign Performance Analytics Dashboard',
+    description: 'Collected and cleaned advertising performance data including impressions, clicks, CTR, CPC, and revenue metrics. Analyzed campaign performance patterns to identify high-engagement segments and underperforming channels. Built interactive Power BI dashboards to visualize CTR trends, spend allocation, and ROI distribution. Generated data-backed optimization suggestions to improve ad reach, reduce cost, and increase overall conversion.',
+    tags: ['Power BI', 'Data Cleaning', 'CTR Analysis', 'ROI', 'Optimization', 'Visualization'],
+    imageUrl: './images/ad_campaign_dashboard.png',
+    liveUrl: 'https://github.com/ritikgarg2468/Ad-Campaign-Performance-Analytics-Dashboard.git',
+    githubUrl: 'https://github.com/ritikgarg2468/Ad-Campaign-Performance-Analytics-Dashboard.git',
   },
 ];
 
 export const EXPERIENCE_DATA: Experience[] = [
   {
-    role: 'Backend Engineer Intern',
-    company: 'WebsoniX',
-    duration: 'Oct 2025 - Present',
-    description: [
-      'Contributed to backend development during migration from Flutter to Node.js (TypeScript), improving system scalability and maintainability.',
-      'Developed and maintained RESTful APIs and WebSocket services for real - time community chat features.',
-      'Integrated Azure Cosmos DB for efficient data storage and retrieval across distributed backend systems.',
-      'Collaborated with frontend team to enhance API performance and ensure seamless communication.'
-    ],
-  },
-  {
-    role: 'Tech Contributor',
-    company: 'Girlscript Foundation',
-    duration: 'Sep 2025 - Dec 2025',
-    description: [
-      'Contributed to open-source projects under GirlScript Foundation.',
-      'Learned collaborative development using Git and GitHub.',
-      'Improved coding skills by working on real-world web development tasks.',
-      'Gained experience in teamwork and open-source contribution workflow.',
-    ],
-  },
-  {
-    role: 'Software Development Engineer Intern',
-    company: 'Bluestock Fintech',
-    duration: 'Aug 2024 - Sep 2024',
-    description: [
-      'Collaborated with teams to design and integrate features, enhancing user experience and functionality.',
-      'Designed financial dashboards with React.js and Angular.js, providing real-time analytics and insights.',
-      'Developed high-performance APIs with Node.js and Express.js for seamless fintech data integration.',
-      'Optimized MongoDB operations with efficient schemas and queries, improving performance by 80%.',
-    ],
-  },
-  {
-    role: 'Full Stack Developer Intern',
-    company: 'Coding Raja Technologies',
+    role: 'Data Analyst Intern',
+    company: 'Internship Studio',
     duration: 'Jun 2024 - Jul 2024',
     description: [
-      'Learned the basics of building web applications using React.',
-      'Practiced writing and testing simple code to understand reliability and quality.',
-      'Gained experience using Git for version control and learned how teams work with Agile methods.',
+      'Worked with raw datasets to clean, organize, and extract useful information using spreadsheets and Python',
+      'Created basic reports and visual summaries to highlight trends, patterns, and key insights.',
+      'Wrote simple SQL queries to retrieve and filter data for analysis and decision-support tasks.',
+      'Gained hands-on experience in data handling, accuracy checking, and presenting findings clearly'
     ],
   },
 ];
 
 export const ACHIEVEMENTS_DATA: Achievement[] = [
   {
-    title: 'University Topper',
-    description: 'Achieved a top 10 rank among 5000+ students in the university for academic and project excellence.',
-    Icon: Trophy,
-  },
-  {
-    title: 'AWS Certified Developer',
-    description: 'Earned the AWS Certified Developer - Associate certification, validating technical expertise in developing and maintaining applications on AWS.',
+    title: 'Certified Data Analyst',
+    description: 'Earned Google Data Analytics Professional Certificate, demonstrating proficiency in data analysis, visualization, and SQL.',
     Icon: Award,
   },
   {
-    title: 'Open Source Contributor',
-    description: 'Contributed to several popular open-source projects, including documentation improvements and bug fixes for a major UI library.',
+    title: 'Power BI Expert',
+    description: 'Achieved Microsoft Power BI Data Analyst Associate certification, validating skills in data modeling and dashboard creation.',
+    Icon: Trophy,
+  },
+  {
+    title: 'Kaggle Competitor',
+    description: 'Participated in multiple Kaggle competitions, achieving top 10% rankings in data science challenges.',
     Icon: BookOpenCheck,
   },
 ];

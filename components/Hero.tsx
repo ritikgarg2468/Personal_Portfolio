@@ -54,14 +54,14 @@ const Hero: React.FC = () => {
           className="mt-4 text-lg md:text-2xl font-semibold text-slate-700 dark:text-slate-300"
           variants={itemVariants}
         >
-          Full Stack Developer | AI & DevOps Enthusiast
+          Data Analyst | Business Intelligence Specialist
         </motion.p>
 
         <motion.p
           className="mt-6 max-w-xl mx-auto text-base md:text-lg text-slate-600 dark:text-slate-400"
           variants={itemVariants}
         >
-          I build elegant, high-performance web applications and explore the frontiers of AI. Passionate about clean code, scalable architecture, and creating impactful digital experiences.
+          I transform raw data into actionable insights through advanced analytics, visualization, and forecasting. Passionate about data-driven decision making, statistical modeling, and creating impactful business solutions.
         </motion.p>
 
         <motion.div
